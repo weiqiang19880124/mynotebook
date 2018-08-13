@@ -1,0 +1,31 @@
+nav .nav-title{
+    padding-left: 20px;
+}
+#content{
+    width: 90%;
+    margin: 30px auto;
+}
+#content .row .menu h3{
+    overflow: hidden;
+    padding: 0 10px;
+}
+#content .row .menu h3 span{
+    margin-top:10px;
+    display: block;
+    float: left;
+}
+#content .row .menu h3 button{
+    float: right;
+}
+.preview{
+    display: block;
+    padding: 20px;
+    background: #f5f5f5;
+    overflow: scroll;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea.editor{
+    height: 500px;
+}

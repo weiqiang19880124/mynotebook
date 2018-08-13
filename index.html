@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyNoteBook</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header nav-title">
+            <a class="navbar-brand" href="#">
+                <p>MyNoteBook</p>
+            </a>
+        </div>
+    </div>
+</nav>
+<div id="content">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 menu">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span>My Note</span>
+                                            <button class="btn btn-default btn-primary">new</button>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <input type="text" class="form-control" placeholder="New Note">
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h3>editor</h3>
+                            <textarea class="form-control editor" rows="10" placeholder="编辑区" required></textarea>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <h3>preview</h3>
+                            <div class="preview"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
