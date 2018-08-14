@@ -29,3 +29,6 @@ nav .nav-title{
 textarea.editor{
     height: 500px;
 }
+.menu ul li.active{
+    background-color: #b92c28;
+}
