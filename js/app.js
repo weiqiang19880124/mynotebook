@@ -3,7 +3,7 @@ angular.module("App",[]).directive('markdown',function () {
     return{
         restrict : 'EAC',
         scope : {
-            markdown:'@'
+            markdown:'@'  //@ 读取变量 = 读取值 & 一般用于调用函数
         },
         link:function (scope,element,attrs) {
           scope.$watch('markdown',function () {

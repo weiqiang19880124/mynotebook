@@ -3,6 +3,7 @@ angular.module('App')
     $scope.editing = true;
     $http.get('/notes')
         .success(function (data) {  //$http.get()加载笔记
+            console.log(data,'111')
             $scope.notes = data; //返回数据赋值给$scope.notes
         })
         .error(function (err) {

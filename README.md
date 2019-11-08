@@ -216,15 +216,12 @@ AngularJS中的简单请求  ---  $http   --- 一个类似jquery的$.ajax的对�
           var promise=$http.jsonp("/api/users.json?callback=JSON_CALLBACK");
  
 
-理论上bower是前端包管理，npm是后端包管理（实际上前后通吃），Bower的安装和升级全都依赖于NPM，npm install -g bower
-与NPM最大的区别在于，NPM主要运用于Node.js项目的内部依赖包管理，安装的模块位于项目根目录下的node_modules文件夹内。而Bower大部分情况下用于前端开发，对于CSS/JS/模板等内容进行依赖管理，依赖的下载目录结构可以自定义(默认bower_components文件夹内)。
+
 started：
 ```
-1.npm install(依赖package.json) 下载node包，会检查依赖表，从github上下载依赖（要先进入该文件目录再执行）
-2.npm install -g bower
-3.bower install(依赖bower.json)
-4.node server 启动服务  Ctrl+S 终止服务
-5.在http://localhost:3000
+1.npm install 下载node包，会检查依赖表，从github上下载依赖（要先进入该文件目录再执行）
+2.node server 启动服务  Ctrl+S 终止服务
+3.在http://localhost:3000
 ```
 
 ![image]()
